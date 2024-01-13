@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Life Sheet</title>
+<link rel="icon" href="G6JJBU2h2MSwEUGakwGaoqg.ico" type="image/x-icon">
+</head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	    background-image: url("https://image.slidesdocs.com/responsive-images/docs/revised-memphis-style-poster-design-page-border-background-word-template_bc0c7d6931__1131_1600.jpg");
+	    background-repeat: no-repeat;
+	    background-size: cover;
+
+        }
+.input-checkbox {
+            width: 20px;
+            height: 20px;
+        }
+.input-radio {
+            width: 20px;
+            height: 20px;
+        }
+
+        .container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group textarea {
+            width: 85%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+
+        }
+
+        .form-group textarea {
+            height: 100px;
+        }
+
+        .form-group button {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .form-group button:hover {
+            background-color: #45a049;
+        }
+
+   </style>
+<body>
+
+    <div class="container">
+        <br><h2>Questionnaire</h2>
+        <form action="mailto:akhyrrarusseljuansacdal@gmail.com" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="text" id="age" name="age" required>
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender</label>
+<input type="radio" class="input-radio" name="Gender" value="Male">Male
+<input type="radio" class="input-radio" name="Gender" value="Female">Female
+<input type="radio" class="input-radio" name="Gender" value="Noanswer">Prefer not to answer
+            </div>
+<div class="form-group">
+<label for="question2">What is your grade level?</label>
+<select name="Level" id="Level"> 
+<option value="L">7</option>
+<option value="Z">8</option>
+<option value="B">9</option>
+<option value="C">10</option>
+<option value="E">11</option>
+<option value="J">12</option>
+</select>
+</div>
+            <div class="form-group">
+<label for="question1">What is your favorite color?</label>
+<input type="color" id="color" name="color" required>
+            </div>
+<div class="form-group">
+<label for="question3">On a scale of 1-10 how happy are you right now?</label>
+<select name="Happy" id="Happy"> 
+<option value="O">1</option>
+<option value="H">2</option>
+<option value="M">3</option>
+<option value="Y">4</option>
+<option value="G">5</option>
+<option value="A">6</option>
+<option value="D">7</option>
+<option value="I">8</option>
+<option value="R">9</option>
+<option value="F">10</option>
+</select>
+</div>
+            <div class="form-group">
+                <label for="question4">What is your favorite Subject?</label>
+                <input type="text" id="question1" name="question1" required>
+            </div>
+            <div class="form-group">
+                <label for="question5">What is your favorite Food?</label>
+                <input type="text" id="question1" name="question1" required>
+            </div>
+            <div class="form-group">
+                <label for="question6">Who is your favorite Teacher?</label>
+                <input type="text" id="question1" name="question1" required>
+            </div>
+            <div class="form-group">
+                <label for="question7">Who is your Crush?</label>
+                <input type="text" id="question1" name="question1" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Additional Comments:</label>
+                <textarea id="message" name="message"></textarea>
+            </div>
+<h2>Please check "I am not a robot</h2>
+    <div class="form-group">
+<label for="Terms">Terms and services</label><br>
+<input type="checkbox" class="input-checkbox" name="Form" value="Robot" required>I am not a robot
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+</div>
+        </form>
+    </div>
+</div>
+</body>
+
+</html>  
